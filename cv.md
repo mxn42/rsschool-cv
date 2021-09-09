@@ -24,7 +24,7 @@ I like _to_ javascript.
 ## Education
 
 1992-1997 **Moscow Pedagogical State University** \
-_**Master of Science**_\, Mathematics and computer science
+_**Master of Science**_, Mathematics and computer science
 
 ## Skills
 
