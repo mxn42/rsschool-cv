@@ -4,8 +4,9 @@ footer {
   margin: auto;
 }
 footer {
+  display: flex;
+  flex-direction: row-reverse;
   margin: 50px auto;
-  text-align: right;
 }
 footer img {
   margin: -10px 20px;
