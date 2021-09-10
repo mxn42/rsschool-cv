@@ -1,0 +1,12 @@
+#cv,
+footer {
+  width: 920px;
+  margin: auto;
+}
+footer {
+  margin: 50px auto;
+  text-align: right;
+}
+footer img {
+  margin: -10px 20px;
+}
