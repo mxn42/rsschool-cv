@@ -1,4 +1,4 @@
-# Maxim Zorin &mdash; **Lead JavaScript Developer**
+# Maxim Zorin — **Lead JavaScript Developer**
 <img align="right" width="30%" src="photo.jpg">
 
 <blockquote>
@@ -10,16 +10,21 @@ I like _to_ javascript.
 
 ## Experience
 
+**IT: Programming, Management, Testing**
 - 2018-2021 **Zodiac Systems** Lead JS Developer
 - 2013-2018 **Zodiac Interactive** Head JS Technologies
 - 2012-2013 **JetBrains** Senior UI Developer
 - 2010-2012 **Zodiac Interactive** Senior JS Developer
-- 2006-2010 **Quest Software** Senior Software Developer
-- 2004-2006 **Quest Software** C# Developer
-- 2002-2004 **Quest Software** Head Quality Assurance
+- 2006-2010 **Dell / Quest Software** Senior Software Developer
+- 2004-2006 **Dell / Quest Software** C# Developer
+- 2002-2004 **Dell / Quest Software** Head Quality Assurance
 - 2000-2001 **Novalumen** Lead Quality Assurance
 - 1999-2000 **GMC** Webmaster
-- 1995-1999 **MPGU** Teacher of mathematics and computer science
+
+**Teaching**
+- 2013-2021 **Anichkov Lyceum (school)** Computer Science Teacher
+- 2014-2018 **SPB Polytechnic University** JavaScript Teacher
+- 1995-1999 **Moscow City University** Computer Science Teacher
 
 ## Education
 
@@ -28,7 +33,7 @@ _**Master of Science**_, Mathematics and computer science
 
 ## Skills
 
-**Basic Skills**: JS full-stack.
+**JS Skills**: Full-stack.
 
 **Languages**: JavaScript proficiency, Python advanced, and more others B2.
 
@@ -46,7 +51,7 @@ class VigenèreCipher {
   }
   char(x, i, forward) {
     const { key, abc } = this;
-    if (!abc.includes(x)) return x; 
+    if (!abc.includes(x)) return x;
     const shift = (forward ? 1 : -1) * abc.indexOf(key[i % key.length]);
     return abc[(abc.indexOf(x) + shift + abc.length) % abc.length];
   }
