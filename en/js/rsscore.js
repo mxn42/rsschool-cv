@@ -25,5 +25,5 @@ export default async () => {
     score -= 10;
   }
 
-  console.log(`%cRSSchool Self-score %c${score}%c / ${max}`, 'font-size: 120%', 'font-size:120%; color: #badaba', 'font-size: 75%; color: grey');
+  console.log(`%cRSSchool Self-Score: %c${score}%c / ${max}`, 'font-size: 120%', 'font-size:120%; color: #cfc', 'font-size: 75%; color: grey');
 };

@@ -6,9 +6,8 @@ export default () => {
     const count = document.querySelectorAll(tag).length;
     return [[...table, {tag, count}], total + count, unique + (count > 0)];
   }, [[], 0, 0]);
-  console.groupCollapsed(`Semantic tags`);
+  console.groupCollapsed(`Semantic: total ${total}, unique: ${unique}`);
   console.table(table, ['tag', 'count']);
   console.groupEnd();
-  console.log(`Semantic summary: total ${total}, unique: ${unique}`);
   return {total, unique};
 };
