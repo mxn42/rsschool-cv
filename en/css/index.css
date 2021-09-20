@@ -1,13 +1,35 @@
-#cv,
-footer {
+body {
+  background-color: #ffffff;
+  background-image: radial-gradient(#ccc 0.5px, #ffffff 0.5px);
+  background-size: 5px 5px;
+}
+
+box.loading {
+  display: none;
+}
+
+main {
+  border: solid 1px #eee;
   width: 920px;
-  margin: auto;
+  margin: 0 auto;
+  background-color: white;
+  padding: 42px;
+}
+
+h1 {
+	margin: 0;
 }
 footer {
   display: flex;
+  width: 920px;
   flex-direction: row-reverse;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 footer img {
   margin: -10px 20px;
+  z-index: 0;
+}
+
+time {
+  font-weight: 600;
 }
