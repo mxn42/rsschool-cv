@@ -1,5 +1,6 @@
 import semanticStat from "./tests/semantic-stat.js";
 import w3validate from "./tests/w3validate.js";
+import customCss from "./tests/custom-css.js";
 
 export default async () => {
   let score = 0, max = 0;
@@ -12,9 +13,6 @@ export default async () => {
   else
     console.log(`[w3 validate] There are ${w3issues.length} errors or warnings.`);
 
-
-  // https://jigsaw.w3.org/css-validator/api.html
-
   // Semantic
   max += 20;
   const semantic = semanticStat();
@@ -25,5 +23,11 @@ export default async () => {
     score -= 10;
   }
 
+  // CSS styles
+  max += 10;
+  const elems = await customCss('./css/index.css');
+  score += Math.min(10, elems.length);
+
+  // https://jigsaw.w3.org/css-validator/api.html
   console.log(`%cRSSchool Self-Score: %c${score}%c / ${max}`, 'font-size: 120%', 'font-size:120%; color: #cfc', 'font-size: 75%; color: grey');
 };
