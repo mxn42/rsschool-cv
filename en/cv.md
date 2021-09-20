@@ -33,15 +33,28 @@ _**Master of Science**_, Mathematics and computer science
 
 ## Skills
 
-**JS Skills**: full-stack
+**IT**
+- JS fullstack: **FE, BE, Embeded**
+- OS: **Windows, Ubuntu**
+- Management: **max 20**
+- Teach CS levels: **Upper primary schools, College, University**
 
-**Languages**:
+**Languages**
 - JavaScript **proficiency**
 - Python **advanced**
-- SQL **advanced**
 - Russian **fluent**
 - English **B2**
-- Basic, Pascal, Delphi, C, C#, Java, Perl, SSI, PHP, ASP **advanced in the past**
+- HTML, CSS, SQL **are used in work**
+- Pascal, Delphi, C#, Perl, SSI, PHP, ASP **used to be used in work**
+
+**Frameworks**
+- VanillaJS  **proficiency**
+- VueJS, ReactJS **B1**
+
+**Interests**
+- Mainly: Fatherhood
+- Outdoors: Hiking, Canoeing, Active games
+- Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
 
 ## Sample JavaScript
 
