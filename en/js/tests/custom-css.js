@@ -6,7 +6,7 @@ export default async url => {
     .reduce((a, x) => [...a, ...x.split`,`], [])
     .map(x => x.trim())
     .filter(x => x);
-  console.groupCollapsed(`Custom elements in "${url}"`);
+  console.groupCollapsed(`CSS: ${elems.length} custom elements in "${url}"`);
   console.log(elems.join(', '));
   console.groupEnd();
   return elems;

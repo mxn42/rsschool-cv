@@ -13,12 +13,12 @@ export default async html => {
   var doc = parser.parseFromString(await response.text(), 'text/html');
   const results = doc.querySelector('#results');
 
-  console.groupCollapsed('Validate by https://validator.w3.org/');
-  const duration = results.querySelector('.stats')?.textContent || '';
-  if (duration) console.log(duration);
   const issues = [...results.querySelectorAll('ol>li')]
     .map(x => x.querySelector('p')?.textContent || '')
     .filter(x => !invalidChecks.includes(x))
+  console.groupCollapsed(`W3C validate: ${issues.length ? 'There are ' + issues.length + ' errors or warnings.' : 'OK'}`);
+  const duration = results.querySelector('.stats')?.textContent || '';
+  if (duration) console.log(duration);
   if (!issues.length)
     console.log('%cDocument checking completed. No errors or warnings.', 'color: #cfc');
   else {
