@@ -1,5 +1,5 @@
 # Maxim Zorin — **Lead JavaScript Developer**
-<figure><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter" width="30%" align="right"></figure>
+<figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter"></figure>
 
 <aside>
 mxn42 | <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a> | <a href="https://www.linkedin.com/in/maximzorin/">LinkedIn</a> | Saint Petersburg, Russia
@@ -82,6 +82,6 @@ class VigenèreCipher {
 ```
 
 
-<section style="last-update">
+<aside class="last-update">
   Last CV update: <time datetime="2021-09-20">20th September, 2021</time>
-</section>
+</aside>

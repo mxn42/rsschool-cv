@@ -9,6 +9,7 @@ box.loading {
 }
 
 main {
+  position: relative;
   border: solid 1px #eee;
   width: 920px;
   margin: 0 auto;
@@ -32,4 +33,20 @@ footer img {
 
 time {
   font-weight: 600;
+}
+
+.photo {
+  position: absolute;
+  background-color: red;
+  right: 40px;
+  text-align: right;
+  width: 30%;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.rs-school-logo {
+  width: 100ppx;
 }

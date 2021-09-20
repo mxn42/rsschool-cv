@@ -4,7 +4,7 @@ const app = {
     <header></header>
     <main></main>
     <footer>
-      <figure><img src="assets/rs_school_js.svg" width="100px" alt="RSSchool"></figure>
+      <figure class="rs-school-logo"><img src="assets/rs_school_js.svg" alt="RSSchool"></figure>
       <div>
         <a href="https://github.com/mxn42/rsschool-cv">mxn42/rsschool-cv</a> |
         2021 |
