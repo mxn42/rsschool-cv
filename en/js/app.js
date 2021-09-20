@@ -2,9 +2,11 @@ const app = {
   title: 'CV Maxim Zorin -- Lead JavaScript Developer',
   content: [
     `<header></header>`,
-    `<article id="cv"></article>`,
+    `<main>
+      <article id="cv"></article>
+    <main>`,
     `<footer>
-      <img src="assets/rs_school_js.svg" width="100px">
+      <figure><img src="assets/rs_school_js.svg" width="100px" alt="RSSchool"></figure>
       <div>
         <a href="https://github.com/mxn42/rsschool-cv">mxn42/rsschool-cv</a> |
         2021 |

@@ -1,16 +1,16 @@
 # Maxim Zorin — **Lead JavaScript Developer**
-<img align="right" width="30%" src="mxn42-photo.jpg">
+<figure><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter" width="30%" align="right"></figure>
 
-<blockquote>
+<aside>
 mxn42 | <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a> | <a href="https://www.linkedin.com/in/maximzorin/">LinkedIn</a> | Saint Petersburg, Russia
-</blockquote>
+</aside>
 
 \
 I like _to_ javascript.
 
 ## Experience
 
-**IT: Programming, Management, Testing**
+### IT: Programming, Management, Testing
 - 2018-2021 **Zodiac Systems** Lead JS Developer
 - 2013-2018 **Zodiac Interactive** Head JS Technologies
 - 2012-2013 **JetBrains** Senior UI Developer
@@ -21,7 +21,7 @@ I like _to_ javascript.
 - 2000-2001 **Novalumen** Lead Quality Assurance
 - 1999-2000 **GMC** Webmaster
 
-**Teaching**
+### Teaching
 - 2013-2021 **Anichkov Lyceum (school)** Computer Science Teacher
 - 2014-2018 **SPB Polytechnic University** JavaScript Teacher
 - 1995-1999 **Moscow City University** Computer Science Teacher
@@ -33,13 +33,13 @@ _**Master of Science**_, Mathematics and computer science
 
 ## Skills
 
-**IT**
+### IT
 - JS fullstack: **FE, BE, Embeded**
 - OS: **Windows, Ubuntu**
 - Management: **max 20**
 - Teach CS levels: **Upper primary schools, College, University**
 
-**Languages**
+### Languages
 - JavaScript **proficiency**
 - Python **advanced**
 - Russian **fluent**
@@ -47,11 +47,11 @@ _**Master of Science**_, Mathematics and computer science
 - HTML, CSS, SQL **are used in work**
 - Pascal, Delphi, C#, Perl, SSI, PHP, ASP **used to be used in work**
 
-**Frameworks**
+### Frameworks
 - VanillaJS  **proficiency**
 - VueJS, ReactJS **B1**
 
-**Interests**
+### Interests
 - Mainly: Fatherhood
 - Outdoors: Hiking, Canoeing, Active games
 - Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
@@ -80,3 +80,8 @@ class VigenèreCipher {
   };
 }
 ```
+
+
+<section style="last-update">
+  Last CV update: <time datetime="2021-09-20">20th September, 2021</time>
+</section>
