@@ -33,13 +33,17 @@ _**Master of Science**_, Mathematics and computer science
 
 ## Skills
 
-**JS Skills**: Full-stack.
+**JS Skills**: full-stack
 
-**Languages**: JavaScript proficiency, Python advanced, and more others B2.
+**Languages**:
+- JavaScript **proficiency**
+- Python **advanced**
+- SQL **advanced**
+- Russian **fluent**
+- English **B2**
+- Basic, Pascal, Delphi, C, C#, Java, Perl, SSI, PHP, ASP **advanced in the past**
 
-**Languages**: Russian fluent; English B2.
-
-## Sample JavaScript code
+## Sample JavaScript
 
 There is a problem from CodeWars.
 
