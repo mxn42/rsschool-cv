@@ -1,5 +1,5 @@
 # Maxim Zorin — **Lead JavaScript Developer**
-<img align="right" width="30%" src="photo.jpg">
+<img align="right" width="30%" src="mxn42-photo.jpg">
 
 <blockquote>
 mxn42 | <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a> | <a href="https://www.linkedin.com/in/maximzorin/">LinkedIn</a> | Saint Petersburg, Russia
