@@ -96,3 +96,7 @@ footer img {
   margin: -10px 20px;
   z-index: 0;
 }
+
+.codewars img {
+  filter: grayscale(100%) invert(1);
+}

@@ -16,6 +16,11 @@ const app = {
           <img src="assets/github.png" alt="https://github.com/mxn42/rsschool-cv">
         </a>
       </figure>
+      <figure class="codewars">
+        <a href="https://www.codewars.com/users/mxn42" target="_blank">
+          <img src="https://www.codewars.com/users/mxn42/badges/large" alt="https://www.codewars.com/users/mxn42/badges/large">
+        </a>
+      </figure>
     </footer>
   `
 };
