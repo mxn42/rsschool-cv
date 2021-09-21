@@ -47,7 +47,7 @@ _**Master of Science**_, Mathematics and computer science
 ### IT
 - JS fullstack: **FE, BE, Embeded**
 - OS: **Windows, Ubuntu**
-- Management: **max 20**
+- Management: **up to 20 people team**
 - Teach CS levels: **Upper primary schools, College, University**
 
 ### Languages
