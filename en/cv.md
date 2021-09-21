@@ -14,7 +14,7 @@
 \
 I like _to_ javascript.
 
-<cite id="cite">I'x qaj uafzhf hp zaspk wvut ragkt sqm jly.</cite>
+<q id="quote">I'x qaj uafzhf hp zaspk wvut ragkt sqm jly.</q> <cite>Douglas Adams</cite>
 
 <a data-toc-label="Experience"></a>
 ## Experience
@@ -95,10 +95,10 @@ class VigenereCipher {
 
 // usage
 const cipher = new VigenereCipher('douglasadams', 'abcdefghijklmnopqrstuvwxyz');
-console.log(cipher.decode(cite.textContent));
+console.log(cipher.decode(quote.textContent));
 ```
 
 
 <aside class="last-update">
-  Last CV update: <time datetime="2021-09-20">20th September, 2021</time>
+  Last CV update: <time datetime="2021-09-21">21th September, 2021</time>
 </aside>

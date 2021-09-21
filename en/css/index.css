@@ -8,6 +8,10 @@ box.loading {
   display: none;
 }
 
+q {
+  font-style: italic;
+}
+
 /* Header */
 
 header {
