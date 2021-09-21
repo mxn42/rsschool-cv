@@ -2,7 +2,12 @@
 <figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter"></figure>
 
 <aside>
-mxn42 | <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a> | <a href="https://www.linkedin.com/in/maximzorin/">LinkedIn</a> | Saint Petersburg, Russia
+<ul id="contacts">
+<li>GitHub:<a href="https://github.com/mxn42">mxn42</a></li>
+<li>Email:<a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
+<li>LinkedIn:<a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
+<li>Saint‑Petersburg,&nbsp;Russia</li>
+</ul>
 </aside>
 
 \
