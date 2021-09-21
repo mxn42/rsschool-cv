@@ -93,7 +93,7 @@ class VigenereCipher {
   };
 }
 
-// usage
+// usage, please see console
 const cipher = new VigenereCipher('douglasadams', 'abcdefghijklmnopqrstuvwxyz');
 console.log(cipher.decode(quote.textContent));
 ```

@@ -20,21 +20,17 @@ const app = {
 export default {
   async render() {
     document.title = app.title;
-    const box = document.body.appendChild(document.createElement('div'));
+    const box = document.body.appendChild(document.createElement`div`);
     box.classList.add('box', 'loading');
     box.insertAdjacentHTML('beforeend', app.template);
-    const md = markdownit({
-      html: true,
-      linkify: true,
-      typographer: true
-    });
-    const cv = await fetch('cv.md');
-    box.querySelector('main').innerHTML = md.render(await cv.text());
-    box.querySelector('nav').appendChild(await tocMenu());
-    const samplejs = document.createElement('script');
-    samplejs.textContent = box.querySelector('code').textContent;
-    document.body.appendChild(samplejs);
+    const cv = await fetch`cv.md`;
+    const md = markdownit({html: true, linkify: true, typographer: true});
+    box.querySelector`main`.innerHTML = md.render(await cv.text());
+    box.querySelector`nav`.appendChild(await tocMenu());
+    const samplejs = document.createElement`script`;
+    samplejs.textContent = box.querySelector`code`.textContent;
+    document.body.appendChild(samplejs).remove();
     hljs.highlightAll();
-    box.classList.remove('loading');
+    box.classList.remove`loading`;
   }
 };
