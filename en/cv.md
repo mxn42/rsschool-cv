@@ -74,16 +74,17 @@ There is a problem from CodeWars.
 ```javascript
 class VigenereCipher {
   constructor(key, abc) {
-    Object.assign(this, { key, abc });
+    Object.assign(this, {key, abc});
   }
   char(x, i, forward) {
-    const { key, abc } = this;
-    if (!abc.includes(x)) return x;
+    const {key, abc} = this;
+    if (!abc.includes(x))
+      return x;
     const shift = (forward ? 1 : -1) * abc.indexOf(key[i % key.length]);
     return abc[(abc.indexOf(x) + shift + abc.length) % abc.length];
   }
   encode(str, forward = true) {
-    return str.split('').map((x, i) => this.char(x, i, forward)).join('');
+    return str.split``.map((x, i) => this.char(x, i, forward)).join``;
   }
   decode(str) {
     return this.encode(str, false);
