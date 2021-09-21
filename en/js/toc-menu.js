@@ -5,7 +5,14 @@ class TocMenu {
     for (let el of elements) {
       const label = el.getAttribute('data-toc-label');
       el.setAttribute('id', label);
-      ul.insertAdjacentHTML('beforeend', `<li><a href="#${label}">${label}</a></li>`);
+      const li = ul.appendChild(document.createElement('li'));
+      const a = li.appendChild(document.createElement('a'));
+      a.textContent = label;
+      a.setAttribute('href', `#${label}`);
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.getElementById(label).scrollIntoView({behavior: 'smooth', block: 'start'});
+      });
     }
   }
 
