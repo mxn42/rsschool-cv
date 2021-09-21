@@ -31,7 +31,9 @@ export default {
     const cv = await fetch('cv.md');
     box.querySelector('main').innerHTML = md.render(await cv.text());
     box.querySelector('nav').appendChild(await tocMenu());
-    eval(box.querySelector('code').textContent);
+    const samplejs = document.createElement('script');
+    samplejs.textContent = box.querySelector('code').textContent;
+    document.body.appendChild(samplejs);
     hljs.highlightAll();
     box.classList.remove('loading');
   }
