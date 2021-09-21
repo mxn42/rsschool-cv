@@ -14,6 +14,8 @@
 \
 I like _to_ javascript.
 
+<cite id="cite">I'x qaj uafzhf hp zaspk wvut ragkt sqm jly.</cite>
+
 <a data-toc-label="Experience"></a>
 ## Experience
 
@@ -90,6 +92,10 @@ class VigenereCipher {
     return this.encode(str, false);
   };
 }
+
+// usage
+const cipher = new VigenereCipher('douglasadams', 'abcdefghijklmnopqrstuvwxyz');
+console.log(cipher.decode(cite.textContent));
 ```
 
 
