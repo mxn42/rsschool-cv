@@ -1,7 +1,9 @@
+import TocMenu from './toc-menu.js';
+
 const app = {
   title: 'CV Maxim Zorin -- Lead JavaScript Developer',
   template: `
-    <header></header>
+    <header><nav></nav></header>
     <main></main>
     <footer>
       <figure class="rs-school-logo"><img src="assets/rs_school_js.svg" alt="RSSchool"></figure>
@@ -28,6 +30,7 @@ export default {
     });
     const cv = await fetch('cv.md');
     box.querySelector('main').innerHTML = md.render(await cv.text());
+    box.querySelector('nav').appendChild(await new TocMenu().render());
     hljs.highlightAll();
     box.classList.remove('loading');
   }

@@ -1,8 +1,8 @@
 # Maxim Zorin — **Lead JavaScript Developer**
 <figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter"></figure>
 
-<aside>
-<ul id="contacts">
+<aside data-toc-label="Contacts">
+<ul class="contacts">
 <li>GitHub:<a href="https://github.com/mxn42">mxn42</a></li>
 <li>Email:<a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
 <li>LinkedIn:<a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
@@ -10,9 +10,11 @@
 </ul>
 </aside>
 
+<a data-toc-label="About me"></a>
 \
 I like _to_ javascript.
 
+<a data-toc-label="Experience"></a>
 ## Experience
 
 ### IT: Programming, Management, Testing
@@ -31,11 +33,13 @@ I like _to_ javascript.
 - 2014-2018 **SPB Polytechnic University** JavaScript Teacher
 - 1995-1999 **Moscow City University** Computer Science Teacher
 
+<a data-toc-label="Education"></a>
 ## Education
 
 1992-1997 **Moscow Pedagogical State University** \
 _**Master of Science**_, Mathematics and computer science
 
+<a data-toc-label="Skills"></a>
 ## Skills
 
 ### IT
@@ -61,6 +65,7 @@ _**Master of Science**_, Mathematics and computer science
 - Outdoors: Hiking, Canoeing, Active games
 - Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
 
+<a data-toc-label="Sample JS"></a>
 ## Sample JavaScript
 
 There is a problem from CodeWars.
