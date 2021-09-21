@@ -6,13 +6,16 @@ const app = {
     <header><nav></nav></header>
     <main></main>
     <footer>
-      <figure class="rs-school-logo"><img src="assets/rs_school_js.svg" alt="RSSchool"></figure>
-      <div>
-        <a href="https://github.com/mxn42/rsschool-cv">mxn42/rsschool-cv</a> |
-        2021 |
-        <a href="https://rs.school/js/">JS Course</a>
-      </div>
-      </a>
+      <figure style="width: 150px;">
+        <a href="https://rs.school/js/" target="_blank">
+          <img src="assets/rs_school_js.svg" alt="RSSchool">
+        </a>
+      </figure>
+      <figure>
+        <a href="https://github.com/mxn42/rsschool-cv" target="_blank">
+          <img src="assets/github.png" alt="https://github.com/mxn42/rsschool-cv">
+        </a>
+      </figure>
     </footer>
   `
 };
