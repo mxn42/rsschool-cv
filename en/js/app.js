@@ -1,4 +1,4 @@
-import TocMenu from './toc-menu.js';
+import tocMenu from './toc-menu.js';
 
 const app = {
   title: 'CV Maxim Zorin -- Lead JavaScript Developer',
@@ -30,7 +30,7 @@ export default {
     });
     const cv = await fetch('cv.md');
     box.querySelector('main').innerHTML = md.render(await cv.text());
-    box.querySelector('nav').appendChild(await new TocMenu().render());
+    box.querySelector('nav').appendChild(await tocMenu());
     hljs.highlightAll();
     box.classList.remove('loading');
   }
