@@ -67,7 +67,7 @@ There is a problem from CodeWars.
 
 **[Vigenère Cipher Helper](https://www.codewars.com/kata/52d1bd3694d26f8d6e0000d3)**
 ```javascript
-class VigenèreCipher {
+class VigenereCipher {
   constructor(key, abc) {
     Object.assign(this, { key, abc });
   }

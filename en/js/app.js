@@ -28,6 +28,7 @@ export default {
     });
     const cv = await fetch('cv.md');
     box.querySelector('main').innerHTML = md.render(await cv.text());
+    hljs.highlightAll();
     box.classList.remove('loading');
   }
 };
