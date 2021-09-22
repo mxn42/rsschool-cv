@@ -1,7 +1,7 @@
 # Maxim Zorin — **Lead JavaScript Developer**
 <figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter"></figure>
 
-<aside data-toc-label="Contacts">
+<aside data-toc-label="Contacts" data-toc-icon="bxs-user-detail">
 <ul class="contacts">
 <li>GitHub:<a href="https://github.com/mxn42">mxn42</a></li>
 <li>Email:<a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
@@ -10,13 +10,13 @@
 </ul>
 </aside>
 
-<a data-toc-label="About me"></a>
+<a data-toc-label="About me" data-toc-icon="bx-message-square-detail"></a>
 \
 I like _to_ javascript.
 
 <q id="quote">I'x qaj uafzhf hp zaspk wvut ragkt sqm jly.</q> <cite>Douglas Adams</cite>
 
-<a data-toc-label="Experience"></a>
+<a data-toc-label="Experience" data-toc-icon="bx-code-alt"></a>
 ## Experience
 
 ### IT: Programming, Management, Testing
@@ -35,13 +35,13 @@ I like _to_ javascript.
 - 2014-2018 **SPB Polytechnic University** JavaScript Teacher
 - 1995-1999 **Moscow City University** Computer Science Teacher
 
-<a data-toc-label="Education"></a>
+<a data-toc-label="Education" data-toc-icon="bxs-graduation"></a>
 ## Education
 
 1992-1997 **Moscow Pedagogical State University** \
 _**Master of Science**_, Mathematics and computer science
 
-<a data-toc-label="Skills"></a>
+<a data-toc-label="Skills" data-toc-icon="bx-cog"></a>
 ## Skills
 
 ### IT
@@ -67,7 +67,7 @@ _**Master of Science**_, Mathematics and computer science
 - Outdoors: Hiking, Canoeing, Active games
 - Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
 
-<a data-toc-label="Sample JS"></a>
+<a data-toc-label="Sample JS" data-toc-icon="bxl-javascript"></a>
 ## Sample JavaScript
 
 There is a problem from CodeWars.
@@ -93,9 +93,9 @@ class VigenereCipher {
   };
 }
 
-// usage, please see console
+// usage
 const cipher = new VigenereCipher('douglasadams', 'abcdefghijklmnopqrstuvwxyz');
-console.log(cipher.decode(quote.textContent));
+console.log(cipher.decode(quote.textContent)); // I’d far rather be happy than right any day.
 ```
 
 

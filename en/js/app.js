@@ -17,9 +17,7 @@ const app = {
         </a>
       </figure>
       <figure class="codewars">
-        <a href="https://www.codewars.com/users/mxn42" target="_blank">
-          <img src="https://www.codewars.com/users/mxn42/badges/large" alt="https://www.codewars.com/users/mxn42/badges/large">
-        </a>
+        <a href="https://www.codewars.com/users/mxn42" target="_blank"></a>
       </figure>
     </footer>
   `
