@@ -6,7 +6,7 @@
 <li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
 <li><i class="bx bx-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
 <li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
-<li><i class="bx bxs-map"></i> Saint Petersburg, Russia</li>
+<li><i class="bx bxs-map"></i> <a href="https://www.google.com/maps/place/St+Petersburg/">Saint Petersburg, Russia</a></li>
 </ul>
 </aside>
 
@@ -20,15 +20,15 @@ I like _to_ javascript.
 ## Experience
 
 ### IT: Programming, Management, Testing
-- 2018-2021 **Zodiac Systems** Lead JS Developer
-- 2013-2018 **Zodiac Interactive** Head JS Technologies
-- 2012-2013 **JetBrains** Senior UI Developer
-- 2010-2012 **Zodiac Interactive** Senior JS Developer
-- 2006-2010 **Dell / Quest Software** Senior Software Developer
-- 2004-2006 **Dell / Quest Software** C# Developer
-- 2002-2004 **Dell / Quest Software** Head Quality Assurance
+- 2018-2021 **[Zodiac Systems](//zodiacsystems.com)** Lead JS Developer
+- 2013-2018 **[Zodiac Systems](//zodiacsystems.com)** Head JS Technologies
+- 2012-2013 **[JetBrains](//jetbrains.com)** Senior UI Developer
+- 2010-2012 **[Zodiac Systems](//zodiacsystems.com)** Senior JS Developer
+- 2006-2010 **[Quest Software](//quest.com)** Senior Software Developer
+- 2004-2006 **[Quest Software](//quest.com)** C# Developer
+- 2002-2004 **[Quest Software](//quest.com)** Head Quality Assurance
 - 2000-2001 **Novalumen** Lead Quality Assurance
-- 1999-2000 **GMC** Webmaster
+- 1999-2000 **[Goodwin](//goodwin-gmc.com)** Webmaster
 
 ### Teaching
 - 2013-2021 **Anichkov Lyceum (school)** Computer Science Teacher
@@ -100,5 +100,5 @@ console.log(cipher.decode(quote.textContent)); // I’d far rather be happy than
 
 
 <aside class="last-update">
-  Last CV update: <time datetime="2021-09-21">21th September, 2021</time>
+  Last CV update: <time datetime="2021-09-22">22th September, 2021</time>
 </aside>
