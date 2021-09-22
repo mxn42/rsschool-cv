@@ -10,13 +10,13 @@
 </ul>
 </aside>
 
-<a data-toc-label="About me" data-toc-icon="bx-message-square-detail"></a>
+<a data-toc-label="About" data-toc-icon="bx-message-square-detail"></a>
 \
 I like _to_ javascript.
 
 <q id="quote">I'x qaj uafzhf hp zaspk wvut ragkt sqm jly.</q> <cite>Douglas Adams</cite>
 
-<a data-toc-label="Experience" data-toc-icon="bx-code-alt"></a>
+<a data-toc-label="Experience" data-toc-icon="bx-history"></a>
 ## Experience
 
 ### IT: Programming, Management, Testing
@@ -35,6 +35,18 @@ I like _to_ javascript.
 - 2014-2018 **SPB Polytechnic University** JavaScript Teacher
 - 1995-1999 **Moscow City University** Computer Science Teacher
 
+<a data-toc-label="Projects" data-toc-icon="bx-code-alt"></a>
+
+### Participated in projects
+#### last decade
+-
+#### 2000s
+- Custom development of [Active Roles](https://www.oneidentity.com/products/active-roles/), javascripting Microsoft ActiveDirectory and Windows.
+- QA engineer of 1st version <http://beeline.ru>, one of the first interactive sites on the Internet.
+#### past millennium
+- Fullstack webdev <http://goodwin-gmc.com/>.
+
+
 <a data-toc-label="Education" data-toc-icon="bxs-graduation"></a>
 ## Education
 
@@ -51,23 +63,19 @@ _**Master of Science**_, Mathematics and computer science
 - Teach CS levels: **Upper primary schools, College, University**
 
 ### Languages
-- JavaScript **proficiency**
+- JavaScript **proficiency**, prefer framework Vanilla
 - Python **advanced**
 - Russian **fluent**
 - English **B2**
 - HTML, CSS, SQL **are used in work**
 - Pascal, Delphi, C#, Perl, SSI, PHP, ASP **used to be used in work**
 
-### Frameworks
-- VanillaJS  **proficiency**
-- VueJS, ReactJS **B1**
-
 ### Interests
 - Mainly: Fatherhood
 - Outdoors: Hiking, Canoeing, Active games
 - Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
 
-<a data-toc-label="Sample JS" data-toc-icon="bxl-javascript"></a>
+<a data-toc-label="Sample" data-toc-icon="bxl-javascript"></a>
 ## Sample JavaScript
 
 There is a problem from CodeWars.
