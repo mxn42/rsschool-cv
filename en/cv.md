@@ -3,10 +3,10 @@
 
 <aside data-toc-label="Contacts" data-toc-icon="bxs-user-detail">
 <ul class="contacts">
-<li>GitHub:<a href="https://github.com/mxn42">mxn42</a></li>
-<li>Email:<a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
-<li>LinkedIn:<a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
-<li>Saint‑Petersburg,&nbsp;Russia</li>
+<li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
+<li><i class="bx bx-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
+<li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
+<li><i class="bx bxs-map"></i> Saint Petersburg, Russia</li>
 </ul>
 </aside>
 

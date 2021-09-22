@@ -94,13 +94,8 @@ time {
 
 .contacts li {
   display: inline;
-}
-
-.contacts li + li {
-  margin-left: 2px;
-  border-left: 1px solid gray;
-  padding-left: 6px;
-  white-space: break-spaces;
+  margin-right: 5px;
+  white-space: nowrap;
 }
 
 /* Footer */
