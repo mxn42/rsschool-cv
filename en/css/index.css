@@ -29,31 +29,7 @@ header nav {
 }
 
 nav {
-  margin-top: 20px;
-}
-
-nav i {
-  position: relative;
-  top: 4px;
-  font-size: 22px;
-  font-weight: 100;
-}
-
-nav a:hover {
-  text-decoration: none;
-}
-
-nav .name {
-  display: inline-block;
-  max-width: 100px;
-  transition: 1s;
-}
-
-@media (max-width: 740px) {
-  nav .name {
-    max-width: 0;
-    opacity: 0;
-  }
+  margin-top: 24px;
 }
 
 nav li {
@@ -64,6 +40,31 @@ nav li {
 nav li + li {
   margin-left: 10px;
   padding-left: 6px;
+}
+
+nav i {
+  position: relative;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav .name {
+  display: inline-block;
+  max-width: 70px;
+  transition: 1s;
+  overflow-x: hidden;
+}
+
+@media (max-width: 740px) {
+  nav .name {
+    transition: .5s;
+    max-width: 0;
+    opacity: 0;
+  }
 }
 
 /* Main */
