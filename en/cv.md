@@ -30,27 +30,30 @@ I like _to_ javascript.
 - 2000-2001 **Novalumen** Lead Quality Assurance
 - 1999-2000 **[Goodwin](//goodwin-gmc.com)** Webmaster
 
-### Teaching
-- 2013-2021 **Anichkov Lyceum (school)** Computer Science Teacher
-- 2014-2018 **SPB Polytechnic University** JavaScript Teacher
-- 1995-1999 **Moscow City University** Computer Science Teacher
-
 <a data-toc-label="Projects" data-toc-icon="bx-code-alt"></a>
 
-### Participated in projects
-#### last decade
--
+### Web and JavaScript projects
+#### Last decade
+- JS and webdev for embeded Interactive TV, customer demos, internal web portals.
+- Web UI of a version control system.
 #### 2000s
-- Custom development of [Active Roles](https://www.oneidentity.com/products/active-roles/), javascripting Microsoft ActiveDirectory and Windows.
-- QA engineer of 1st version <http://beeline.ru>, one of the first interactive sites on the Internet.
-#### past millennium
-- Fullstack webdev <http://goodwin-gmc.com/>.
+- Custom dev [Active Roles](https://www.oneidentity.com/products/active-roles/), javascripting Microsoft ActiveDirectory and Windows.
+- ASP<span>.</span>NET webdev (developer, qa head) an user provisioning, [self-service management and security](https://www.oneidentity.com/products/password-manager/), [management ActiveDirectory](https://www.quest.com/products/recovery-manager-for-active-directory/), [recovery Exchange](https://www.quest.com/products/recovery-manager-for-exchange/), customize SharePoint.
+- QA engineer of 1st version of <http://beeline.ru>, one of the first interactive websites on the Internet.
+#### Past millennium
+- Fullstack webdev 1st version of <http://goodwin-gmc.com/>
 
 
 <a data-toc-label="Education" data-toc-icon="bxs-graduation"></a>
 ## Education
 
-1992-1997 **Moscow Pedagogical State University** \
+### Teaching
+- 2013-2021 **Anichkov Lyceum (school)** Computer Science Teacher
+- 2014-2018 **SPB Polytechnic University** JavaScript Teacher
+- 1995-1999 **Moscow City University** Computer Science Teacher
+
+### Learning
+- 1992-1997 **Moscow Pedagogical State University** \
 _**Master of Science**_, Mathematics and computer science
 
 <a data-toc-label="Skills" data-toc-icon="bx-cog"></a>
