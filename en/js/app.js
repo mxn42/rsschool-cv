@@ -36,6 +36,7 @@ export default {
     const samplejs = document.createElement`script`;
     samplejs.textContent = box.querySelector`code`.textContent;
     document.body.appendChild(samplejs).remove();
+    if (typeof c1 !== 'undefined') console.log(c1.decode(quote.textContent));
     hljs.highlightAll();
     box.classList.remove`loading`;
   }

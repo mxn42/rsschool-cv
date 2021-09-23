@@ -17,6 +17,7 @@ I like _to_ javascript.
 <q id="quote">I'x qaj uafzhf hp zaspk wvut ragkt sqm jly.</q> <cite>Douglas Adams</cite>
 
 <a data-toc-label="Experience" data-toc-icon="bx-history"></a>
+
 ## Experience
 
 ### IT: Programming, Management, Testing
@@ -33,30 +34,36 @@ I like _to_ javascript.
 <a data-toc-label="Projects" data-toc-icon="bx-code-alt"></a>
 
 ### Web and JavaScript projects
+
 #### Last decade
 - JS and webdev for embeded Interactive TV, customer demos, internal web portals.
 - Web UI of a version control system.
+- EcmaScript and Node courses in Polytech.
+
 #### 2000s
 - Custom dev [Active Roles](https://www.oneidentity.com/products/active-roles/), javascripting Microsoft ActiveDirectory and Windows.
 - ASP<span>.</span>NET webdev (developer, qa head) an user provisioning, [self-service management and security](https://www.oneidentity.com/products/password-manager/), [management ActiveDirectory](https://www.quest.com/products/recovery-manager-for-active-directory/), [recovery Exchange](https://www.quest.com/products/recovery-manager-for-exchange/), customize SharePoint.
 - QA engineer of 1st version of <http://beeline.ru>, one of the first interactive websites on the Internet.
+
 #### Past millennium
 - Fullstack webdev 1st version of <http://goodwin-gmc.com/>
 
 
 <a data-toc-label="Education" data-toc-icon="bxs-graduation"></a>
+
 ## Education
 
-### Teaching
+### Contribution
 - 2013-2021 **Anichkov Lyceum (school)** Computer Science Teacher
 - 2014-2018 **SPB Polytechnic University** JavaScript Teacher
 - 1995-1999 **Moscow City University** Computer Science Teacher
 
-### Learning
+### Graduated
 - 1992-1997 **Moscow Pedagogical State University** \
 _**Master of Science**_, Mathematics and computer science
 
 <a data-toc-label="Skills" data-toc-icon="bx-cog"></a>
+
 ## Skills
 
 ### IT
@@ -79,6 +86,7 @@ _**Master of Science**_, Mathematics and computer science
 - Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
 
 <a data-toc-label="Sample" data-toc-icon="bxl-javascript"></a>
+
 ## Sample JavaScript
 
 There is a problem from CodeWars.
@@ -134,5 +142,5 @@ console.assert(c2.decode(code) === text);
 
 
 <aside class="last-update">
-  Last CV update: <time datetime="2021-09-23">23th September, 2021</time>
+  Last CV update: <time datetime="2021-09-24">24th September, 2021</time>
 </aside>
