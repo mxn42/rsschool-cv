@@ -36,18 +36,18 @@ I like _to_ javascript.
 ### Web and JavaScript projects
 
 #### Last decade
-- JS and webdev for embeded Interactive TV, customer demos, internal web portals.
-- Web UI of a version control system.
+- Embeded JS dev, webdev and lead for solutioins in Interactive TV, customer demos, internal web portals.
+- Webdev a new version control system.
 - EcmaScript and Node courses in Polytech.
 
 #### 2000s
-- Custom dev [Active Roles](https://www.oneidentity.com/products/active-roles/), javascripting ActiveDirectory and Windows.
+- Customdev [Active Roles](https://www.oneidentity.com/products/active-roles/), javascripting ActiveDirectory and Windows.
 - ASP<span>.</span>NET webdev (developer, qa head) an user provisioning, [self-service management and security](https://www.oneidentity.com/products/password-manager/), [management ActiveDirectory](https://www.quest.com/products/recovery-manager-for-active-directory/), [recovery Exchange](https://www.quest.com/products/recovery-manager-for-exchange/), customize SharePoint.
-- QA engineer of 1st version of <http://beeline.ru>, one of the first interactive websites on the Internet.
+- Webdev [tatastudio.ru](//www.tatastudio.ru/) _Tatasutdio film production company_
+- QA the 1st version of [beeline.ru](//beeline.ru), one of the first interactive websites on the Internet.
 
 #### Past millennium
-- Fullstack webdev 1st version of <http://goodwin-gmc.com/>
-
+- Webdev 1st version [goodwin-gmc.com](//goodwin-gmc.com/) _registration and comprehensive legal services_
 
 <a data-toc-label="Education" data-toc-icon="bxs-graduation"></a>
 
