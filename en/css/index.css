@@ -138,3 +138,8 @@ footer img {
     filter: grayscale(100%) invert(1);
   }
 }
+
+.last-update {
+  margin-top: 42px;
+  text-align: right;
+}
