@@ -4,7 +4,6 @@
 
 <aside data-toc-label="Contacts" data-toc-icon="bxs-user-detail">
 <ul class="contacts">
-<li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
 <li><i class="bx bx-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
 <li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
 <li><i class="bx bxs-map"></i> <a href="https://www.google.com/maps/place/St+Petersburg/">Saint Petersburg, Russia</a></li>
@@ -13,7 +12,7 @@
 
 <a data-toc-label="About" data-toc-icon="bx-message-square-detail"></a>
 \
-My overall experience of more than 20 years, previously I worked at Zodiac Systems, Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and Computer Science from Moscow State Pedagogical Unversity.
+My overall experience of more than 20 years, previously I worked at Zodiac Systems, Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and CS from Moscow Pedagogical State University.
 
 I love spending time with my family, also I enjoy traveling, hiking, canoeing, and playing board games.
 
@@ -40,7 +39,7 @@ I love spending time with my family, also I enjoy traveling, hiking, canoeing, a
 #### Last decade
 
 - Embedded JS dev, web dev, and lead for solutions in Interactive TV, customer demos, internal web portals.
-- Webdev a new version control system.
+- Web dev a new version control system.
 - Teach EcmaScript and Node courses in Polytech.
 
 #### The 2000s
@@ -67,7 +66,7 @@ I love spending time with my family, also I enjoy traveling, hiking, canoeing, a
 ### Graduated
 
 - 1992-1997 **Moscow Pedagogical State University** \
-_**Master of Science**_, Mathematics and computer science
+_**Master of Science**_, Mathematics and Computer Science
 
 <a data-toc-label="Skills" data-toc-icon="bx-cog"></a>
 
