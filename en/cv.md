@@ -12,7 +12,7 @@
 
 <a data-toc-label="About" data-toc-icon="bx-message-square-detail"></a>
 \
-My overall experience of more than 20 years, previously I worked at Zodiac Systems, Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and CS from Moscow Pedagogical State University.
+My overall experience of more than 20 years, I have worked at Zodiac Systems, Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and CS from Moscow Pedagogical State University.
 
 I love spending time with my family, also I enjoy traveling, hiking, canoeing, and playing board games.
 
@@ -45,7 +45,7 @@ I love spending time with my family, also I enjoy traveling, hiking, canoeing, a
 #### The 2000s
 
 - Custom dev [Active Roles](https://www.oneidentity.com/products/active-roles/), JavaScripting ActiveDirectory and Windows.
-- ASP<span>.</span>NET webdev (developer, QA head) user provisioning, [self-service management and security](https://www.oneidentity.com/products/password-manager/), [management ActiveDirectory](https://www.quest.com/products/recovery-manager-for-active-directory/), [recovery Exchange](https://www.quest.com/products/recovery-manager-for-exchange/), customize SharePoint.
+- ASP<span>.</span>NET web dev (developer, QA head) user provisioning, [self-service management and security](https://www.oneidentity.com/products/password-manager/), [management ActiveDirectory](https://www.quest.com/products/recovery-manager-for-active-directory/), [recovery Exchange](https://www.quest.com/products/recovery-manager-for-exchange/), customize SharePoint.
 - Web dev [tatastudio.ru](//www.tatastudio.ru/) _Tatasutdio film production company_
 - <abbr title="Quality Assurance">QA</abbr> the 1st version of [beeline.ru](//beeline.ru), one of the first interactive websites on the Internet.
 
@@ -74,7 +74,7 @@ _**Master of Science**_, Mathematics and Computer Science
 
 ### IT
 
-- JS fullstack: **FE, BE, Embeded**
+- JS full stack: **FE, BE, Embedded**
 - OS: **Windows, Ubuntu**
 - Management: **up to 20 people team**
 - Teach CS levels: **Upper primary schools, College, University**
@@ -83,7 +83,7 @@ _**Master of Science**_, Mathematics and Computer Science
 
 - JavaScript **proficiency**, Vanilla dialect
 - Python, HTML, CSS, SQL, UML, Markdown **are used in work**
-- Pascal, Delphi, C#, Perl, SSI, PHP, ASP<span>.</span>NET, VBScript, PowerShell **used to be used in work**
+- Pascal, Delphi, C#, Perl, SSI, PHP, ASP<span>.</span>NET, VBScript, PowerShell, and SADT **are in the background**
 - Russian **fluent**
 - English **B2**
 
@@ -95,10 +95,7 @@ _**Master of Science**_, Mathematics and Computer Science
 
 <a data-toc-label="Sample" data-toc-icon="bxl-javascript"></a>
 
-## Sample JavaScript
-
-- [VigenereCipher](./samples/vigenere-cipher.js)
 
 <aside class="last-update">
-  Last CV update: <time datetime="2021-09-24">5th October, 2021</time>
+  Last CV update: <time datetime="2021-09-24">6th October 2021</time>
 </aside>
