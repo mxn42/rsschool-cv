@@ -1,6 +1,6 @@
 # Maxim Zorin — **Lead JavaScript Developer**
 
-<figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter"></figure>
+<figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter" width="30%" align="right"></figure>
 
 <aside data-toc-label="Contacts" data-toc-icon="bxs-user-detail">
 <ul class="contacts">
@@ -13,7 +13,9 @@
 
 <a data-toc-label="About" data-toc-icon="bx-message-square-detail"></a>
 \
-I like _to_ javascript.
+My overall experience of more than 20 years, previously I worked at Zodiac Systems, Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and Computer Science from Moscow State Pedagogical Unversity.
+
+I love spending time with my family, also I enjoy traveling, hiking, canoeing, and playing board games.
 
 <a data-toc-label="Experience" data-toc-icon="bx-history"></a>
 
