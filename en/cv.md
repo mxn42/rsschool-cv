@@ -93,8 +93,7 @@ _**Master of Science**_, Mathematics and Computer Science
 - Outdoors: Hiking, Canoeing, Active games
 - Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
 
-<a data-toc-label="Sample" data-toc-icon="bxl-javascript"></a>
-
+\
 
 <aside class="last-update">
   Last CV update: <time datetime="2021-09-24">6th October 2021</time>
