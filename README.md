@@ -1,1 +1,1 @@
-<https://mxn42.github.io/rsschool-cv/en>
+<https://mxn42.github.io/rsschool-cv/lite/en.md>
