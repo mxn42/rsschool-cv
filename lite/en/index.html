@@ -4,10 +4,125 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maxim Zorin -- CV lite</title>
+  <title>Maxim Zorin -- JavaScripter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap">
+  <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/vs.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <h1>Maxim Zorin -- CV lite</h1>
+  <main class="body-main">
+    <section class="hat">
+      <img class="visual" src="assets/images/back.png" alt="">
+      <img class="photo" src="mxn42-photo.jpg" alt="Maxim Zorin">
+      <section class="name-job">
+        <h1>Maxim Zorin</h1>
+        <h2>JavaScripter</h2>
+      </section>
+      <section class="contacts">
+        <ul class="nav">
+          <li><i class='bx bxs-phone'></i> <a href="call:+012 345-6789">+012 345-6789</a></li>
+          <li><i class="bx bxs-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
+          <li><i class="bx bxs-map"></i> <a href="https://www.google.com/maps/place/St+Petersburg/">Saint Petersburg</a></li>
+          <li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
+          <li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
+          <li><i class="bx bxl-discord-alt"></i> <a href="https://discord.com/users/mxn42">mxn42</a></li>          
+        </ul>
+      </section>  
+    </section>
+    <section class="column left">
+      <section class="item">
+        <h2>Profile</h2>
+        <p>I have a programming background, but in the web development we have to keep up with new technologies. I wish to use the course to close the weaknesses in my knowledge.</p>
+      </section>
+      <section class="item">
+        <h2>Education</h2>
+        <p>From <strong>Moscow Pedagogical State University</strong></p>
+        <p>graduated with a <strong>Master of Science</strong> in Mathematics and Computer Science.</p>
+      </section>
+      <section class="item">
+        <h2>Language</h2>
+        <ul>
+          <li>English <strong>B2</strong></li>
+          <li>Russian native</li>
+        </ul>
+      </section>
+      <section class="item">
+        <h2>Interests</h2>
+        <ul>
+          <li>Outdoors: Hiking, Canoeing, Active games</li>
+          <li>Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)</li>
+        </ul>
+      </section>
+      <section class="item">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript, Python</li>
+          <li>HTML, CSS, Markdown</li>
+        </ul>
+      </section>
+    </section>
+    <section class="column right">
+      <section class="item">
+        <h2>Code sample</h2>
+        <p>There is a solve of codewars kata <a href="https://www.codewars.com/kata/569d488d61b812a0f7000015">Data Reverse</a>.</p>
+        <p>Time complexity O(n) because in this loop it swaps only n/2 items.
+          Space complexity O(1), so it uses only one space for swap.
+          No array methods, no any hidden time or space complexity.</p>
+        <pre><code class="javascript">const dataReverse = data => {
+  let left, right, i, t;
+  for (left = 0, right = data.length - 8; left < right; left += 8, right -= 8)
+    for (i = 0; i < 8; ++i) {
+      t = data[left + i]; 
+      data[left + i] = data[right + i];
+      data[right + i] = t;
+    }
+  return data;
+};</code></pre>
+      </section>
+      <section class="item">
+        <h2>Work Experience</h2>
+<h3><strong>Software Developer (4 years)</strong><br>Quest Software</h3>
+
+<p>Custom dev Active Roles, JavaScripting ActiveDirectory and Windows.</p>
+
+<h3><strong>C# Developer (2 years)</strong><br>Quest Software</h3>
+
+<p>ASP<span>.</span>NET web dev (developer, QA head) user provisioning, self-service management and security, management ActiveDirectory, recovery Exchange, customize SharePoint.</p>
+
+<h3><strong>Lead Quality Assurance (1 year)</strong><br>Novalumen</h3>
+
+<p>Testing <a href="beeline.ru">beeline.ru</a>.</p>
+
+<h3><strong>Webmaster (1 year)</strong><br>Goodwin Management</h3>
+
+<p>Web dev 1st version <a href="goodwin-gmc.com">goodwin-gmc.com</a>.</p>
+
+
+      </section>
+      <section class="item">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="//www.tatastudio.ru">tatastudio.ru</a> -- Tatasutdio film production company</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <footer class="body-footer">
+    <ul>
+      <li><a class="codewars" href="https://www.codewars.com/users/mxn42"></a></li>
+      <li>Last CV update: <em>25th December 2021</em></li>
+    </ul>
+  </footer>
+  <script>
+    hljs.highlightAll()
+  </script>
 </body>
 </html>

@@ -56,7 +56,6 @@ const dataReverse = data => {
 - 1992-1997 **Moscow Pedagogical State University** \
 _**Master of Science**_, Mathematics and Computer Science
 
-
 ## Foreign Languages
 
 - English **B2**

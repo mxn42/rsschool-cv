@@ -1,13 +1,202 @@
-/* CSS Reset https://github.com/elad2412/the-new-css-reset/blob/main/css/reset.css */
-*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) { all: unset; display: revert; }
-*, *::before, *::after { box-sizing: border-box; }
-ol, ul, menu { list-style: none; }
-img { max-width: 100%; }
-table { border-collapse: collapse; }
-textarea { white-space: revert; }
-:where([contenteditable]) {
-  -moz-user-modify: read-write;
-  -webkit-user-modify: read-write;
-  overflow-wrap: break-word;
-  -webkit-line-break: after-white-space;
+a { 
+  transition: .2s;
+  cursor: pointer;
+}
+
+p a, li a {
+  color: blue;
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 600;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Lato;
+}
+
+i.bx {
+  position: relative;
+  top: 5px;
+}
+
+.body-main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  min-width: 720px;
+  max-width: 1440px;
+  min-height: 500px;
+  background-color: white;
+}
+
+.body-main .column {
+  flex: 50%;  
+  background-color: white;
+  padding-left: 10px;
+}
+
+.body-footer {
+  margin: 5rem auto;
+}
+
+.hat {
+  position: relative;
+  overflow: hidden;
+  font-size: 0;
+  background-color: white;
+}
+
+.hat img.visual {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.hat img.photo {
+  position: absolute;
+  z-index: 0;
+  width: 31%;
+  right: 11.5%;
+  top: 5%;
+}
+
+.hat .contacts {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
+
+.hat .name-job {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 45%;
+  width: 50%;
+  min-width: 440px;
+  z-index: 1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hat h1 {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.hat h2 {
+  font-size: 3em;
+  line-height: 1.8em;
+}
+
+.hat .nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hat .nav li {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  min-width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+@media (max-width: 1120px) {
+  .hat .name-job {
+    top: 0;
+  }
+  .hat h2 {
+    line-height: 1em;
+  }
+  .hat .nav li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .hat .name-job {
+    font-size: 0.8rem;
+  }
+  .hat .nav li {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+
+a.codewars  {
+  width: 400px;
+  height: 42px;
+  margin: 10px 20px;
+  display: inline-block;
+  background: url(https://www.codewars.com/users/mxn42/badges/large?theme=light) no-repeat;
+  filter: grayscale(100%);
+}
+
+@media (max-width: 720px) {
+  a.codewars  {
+    width: 120px;
+    height: 24px;
+    margin: 18px 20px;
+    display: inline-block;
+    background: url(https://www.codewars.com/users/mxn42/badges/micro?theme=light) no-repeat;
+    filter: grayscale(100%) invert(1);
+  }
+}
+
+.column.left {
+  border-right: solid 6px #c6dae0;
+  flex: 40%;
+  margin-right: 40px;
+}
+
+.item > p, .item li {
+  padding-right: 50px;
+  line-height: 1.5em;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.item > ul {
+  list-style-type: disc;
+  margin-left: 3em;
+}
+
+.item h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #c6dae0;
+  width: 60%;
+  text-transform: uppercase;
+  padding: 10px 20px 6px 20px;
+  margin: 50px 0 30px 0;
+}
+
+.item h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 30px 0 10px 0;
+}
+
+.item pre {
+  font-size: 1.1rem;
+  line-height: 1.8em;
+  white-space: pre;
+  font-family: Consolas, Courier, monospace;
+}
+
+.item pre code.hljs {
+  padding: 0 0 0 0.5em;
+  background-color: whitesmoke;
+}
+
+.item p, .item pre {
+  margin-top: 0.5em;
 }
