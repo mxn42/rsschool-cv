@@ -19,7 +19,7 @@
 </head>
 <body>
   <main class="body-main">
-    <section class="hat">
+    <div class="hat">
       <img class="visual" src="assets/images/back.png" alt="">
       <img class="photo" src="mxn42-photo.jpg" alt="Maxim Zorin">
       <section class="name-job">
@@ -27,17 +27,19 @@
         <h2>JavaScripter</h2>
       </section>
       <section class="contacts">
-        <ul class="nav">
-          <li><i class='bx bxs-phone'></i> <a href="call:+012 345-6789">+012 345-6789</a></li>
-          <li><i class="bx bxs-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
-          <li><i class="bx bxs-map"></i> <a href="https://www.google.com/maps/place/St+Petersburg/">Saint Petersburg</a></li>
-          <li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
-          <li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
-          <li><i class="bx bxl-discord-alt"></i> <a href="https://discord.com/users/mxn42">mxn42</a></li>          
-        </ul>
+        <nav>
+          <ul class="nav">
+            <li><i class='bx bxs-phone'></i> <a href="tel:+012 345-6789">+012 345-6789</a></li>
+            <li><i class="bx bxs-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
+            <li><i class="bx bxs-map"></i> <a href="https://www.google.com/maps/place/St+Petersburg/">Saint Petersburg</a></li>
+            <li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
+            <li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
+            <li><i class="bx bxl-discord-alt"></i> <a href="https://discord.com/users/mxn42">mxn42</a></li>          
+          </ul>
+        </nav>
       </section>  
-    </section>
-    <section class="column left">
+    </div>
+    <div class="column left">
       <section class="item">
         <h2>Profile</h2>
         <p>I have a programming background, but in the web development we have to keep up with new technologies. I wish to use the course to close the weaknesses in my knowledge.</p>
@@ -68,8 +70,8 @@
           <li>HTML, CSS, Markdown</li>
         </ul>
       </section>
-    </section>
-    <section class="column right">
+    </div>
+    <div class="column right">
       <section class="item">
         <h2>Code sample</h2>
         <p>There is a solve of codewars kata <a href="https://www.codewars.com/kata/569d488d61b812a0f7000015">Data Reverse</a>.</p>
@@ -78,8 +80,8 @@
           No array methods, no any hidden time or space complexity.</p>
         <pre><code class="javascript">const dataReverse = data => {
   let left, right, i, t;
-  for (left = 0, right = data.length - 8; left < right; left += 8, right -= 8)
-    for (i = 0; i < 8; ++i) {
+  for (left = 0, right = data.length - 8; left &lt; right; left += 8, right -= 8)
+    for (i = 0; i &lt; 8; ++i) {
       t = data[left + i]; 
       data[left + i] = data[right + i];
       data[right + i] = t;
@@ -113,7 +115,7 @@
           <li><a href="//www.tatastudio.ru">tatastudio.ru</a> -- Tatasutdio film production company</li>
         </ul>
       </section>
-    </section>
+    </div>
   </main>
   <footer class="body-footer">
     <ul>
