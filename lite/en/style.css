@@ -60,8 +60,8 @@ i.bx {
 .hat img.photo {
   position: absolute;
   z-index: 0;
-  width: 31%;
-  right: 11.5%;
+  width: 25%;
+  right: 15%;
   top: 5%;
 }
 
@@ -101,7 +101,6 @@ i.bx {
 .hat .nav li {
   margin-left: 10px;
   font-size: 1.8rem;
-  min-width: 40%;
   overflow: hidden;
   white-space: nowrap;
   padding: 10px 0;
@@ -193,7 +192,7 @@ a.codewars  {
 }
 
 .item pre code.hljs {
-  padding: 0 0 0 0.5em;
+  padding: 5px 0 5px 0.5em;
   background-color: whitesmoke;
 }
 

@@ -10,12 +10,10 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap">
   <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
-
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/vs.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
   <link rel="stylesheet" href="style.css">
-
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
 </head>
 <body>
   <main class="body-main">
@@ -28,11 +26,11 @@
       </section>
       <nav class="contacts">
         <ul class="nav">
-          <li><i class='bx bxs-phone'></i> <a href="tel:+0123456789">+012 345-6789</a></li>
           <li><i class="bx bxs-envelope"></i> <a href="mailto:maxim.zorin@gmail.com">maxim.zorin@gmail.com</a></li>
           <li><i class="bx bxs-map"></i> <a href="https://www.google.com/maps/place/St+Petersburg/">Saint Petersburg</a></li>
           <li><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/maximzorin/">maximzorin</a></li>
-          <li><i class="bx bxl-github"></i> <a href="https://github.com/mxn42">mxn42</a></li>
+          <li><i class="bx bxl-skype"></i> <a href="https://join.skype.com/invite/gxSDbgmD0SAH">maxim.zorin</a></li>
+          <li><i class="bx bxl-telegram"></i> <a href="https://t.me/mxn42">mxn42</a></li>
           <li><i class="bx bxl-discord-alt"></i> <a href="https://discord.com/users/mxn42">mxn42</a></li>          
         </ul>
       </nav>
@@ -44,8 +42,11 @@
       </section>
       <section class="item">
         <h2>Education</h2>
-        <p>From <strong>Moscow Pedagogical State University</strong></p>
-        <p>graduated with a <strong>Master of Science</strong> in Mathematics and Computer Science.</p>
+        <ul>
+          <li>Specialist <a href="assets/specialist-internet-user.jpg">Internet User</a></li>
+          <li>Brainbench <a href="assets/brainbench-html-programmer.jpg">HTML Programmer</a></li>
+          <li>From <strong>Moscow Pedagogical State University</strong> graduated with a <strong>Master of Science</strong> in Mathematics and Computer Science.</li>
+        </ul>
       </section>
       <section class="item">
         <h2>Language</h2>
@@ -57,14 +58,15 @@
       <section class="item">
         <h2>Interests</h2>
         <ul>
-          <li>Outdoors: Hiking, Canoeing, Active games</li>
-          <li>Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)</li>
+          <li>Outdoors: hiking, canoeing, active games</li>
+          <li>Indoors: reading, board games (especially tafl, chess, go), card games (primarily poker)</li>
         </ul>
       </section>
       <section class="item">
         <h2>Skills</h2>
         <ul>
           <li>JavaScript, Python</li>
+          <li>Vanilla, RUP, Subversion, Notepad++</li>
           <li>HTML, CSS, Markdown</li>
         </ul>
       </section>
@@ -72,10 +74,10 @@
     <div class="column right">
       <section class="item">
         <h2>Code sample</h2>
-        <p>There is a solve of codewars kata <a href="https://www.codewars.com/kata/569d488d61b812a0f7000015">Data Reverse</a>.</p>
-        <p>Time complexity O(n) because in this loop it swaps only n/2 items.
-          Space complexity O(1), so it uses only one space for swap.
-          No array methods, no any hidden time or space complexity.</p>
+        <p>It's a solve of codewars kata <a href="https://www.codewars.com/kata/569d488d61b812a0f7000015">Data Reverse</a>.
+          Time complexity O(n) because it swaps only n/2 items and doesn't another.
+          Space complexity O(1), so it uses only one space for the swap.
+          It reverses in place, there isn't a hidden time or space complexity.</p>
         <pre><code class="javascript">const dataReverse = data => {
   let left, right, i, t;
   for (left = 0, right = data.length - 8; left &lt; right; left += 8, right -= 8)
@@ -89,6 +91,7 @@
       </section>
       <section class="item">
         <h2>Work Experience</h2>
+
 <h3><strong>Software Developer (4 years)</strong><br>Quest Software</h3>
 
 <p>Custom dev Active Roles, JavaScripting ActiveDirectory and Windows.</p>
@@ -99,11 +102,11 @@
 
 <h3><strong>Lead Quality Assurance (1 year)</strong><br>Novalumen</h3>
 
-<p>Testing <a href="beeline.ru">beeline.ru</a>.</p>
+<p>Testing the 2nd version of <a href="beeline.ru">beeline.ru</a>.</p>
 
 <h3><strong>Webmaster (1 year)</strong><br>Goodwin Management</h3>
 
-<p>Web dev 1st version <a href="goodwin-gmc.com">goodwin-gmc.com</a>.</p>
+<p>Web dev the 1st version <a href="goodwin-gmc.com">goodwin-gmc.com</a>.</p>
 
 
       </section>
@@ -119,6 +122,7 @@
     <ul>
       <li><a class="codewars" href="https://www.codewars.com/users/mxn42"></a></li>
       <li>Last CV update: <em>25th December 2021</em></li>
+      <li>Design: <a href="https://www.freepik.com/free-vector/minimalist-cv-template_13386575.htm">https://www.freepik.com/free-vector/minimalist-cv-template_13386575.htm</a></li>
     </ul>
   </footer>
   <script>
