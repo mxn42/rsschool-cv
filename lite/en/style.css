@@ -3,6 +3,10 @@ a {
   cursor: pointer;
 }
 
+ins {
+  font-style: italic;
+}
+
 p a, li a {
   color: blue;
   text-decoration: underline;
@@ -41,7 +45,28 @@ i.bx {
 }
 
 .body-footer {
-  margin: 5rem auto;
+  min-width: 720px;
+  max-width: 1440px;
+  margin: 6rem auto;
+}
+
+.body-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-footer a {
+  color: black;
+}
+
+.body-footer i.bx {
+  font-size: 4rem;
+  top: -1px;
+}
+
+.rs-js-logo {
+  margin-left: 20px;
+  width: 150px;
 }
 
 .hat {
