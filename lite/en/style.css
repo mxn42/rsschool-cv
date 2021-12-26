@@ -36,8 +36,8 @@ i.bx {
 
 .body-main .column {
   flex: 50%;  
-  background-color: white;
   padding-left: 10px;
+  background-color: white;
 }
 
 .body-footer {
@@ -46,39 +46,39 @@ i.bx {
 
 .hat {
   position: relative;
-  overflow: hidden;
   font-size: 0;
+  overflow: hidden;
   background-color: white;
 }
 
 .hat img.visual {
   position: relative;
-  width: 100%;
   z-index: 1;
+  width: 100%;
 }
 
 .hat img.photo {
   position: absolute;
-  z-index: 0;
-  width: 25%;
   right: 15%;
   top: 5%;
+  z-index: 0;
+  width: 25%;
 }
 
 .hat .contacts {
-  z-index: 1;
   position: absolute;
   bottom: 0;
+  z-index: 1;
   width: 50%;
 }
 
 .hat .name-job {
-  font-size: 1rem;
   position: absolute;
   bottom: 45%;
+  z-index: 1;
   width: 50%;
   min-width: 440px;
-  z-index: 1;
+  font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -100,11 +100,11 @@ i.bx {
 
 .hat .nav li {
   margin-left: 10px;
-  font-size: 1.8rem;
-  overflow: hidden;
-  white-space: nowrap;
   padding: 10px 0;
+  font-size: 1.8rem;
+  white-space: nowrap;
   font-weight: 300;
+  overflow: hidden;
 }
 
 @media (max-width: 1120px) {
@@ -130,28 +130,28 @@ i.bx {
 }
 
 a.codewars  {
+  display: inline-block;
   width: 400px;
   height: 42px;
   margin: 10px 20px;
-  display: inline-block;
   background: url(https://www.codewars.com/users/mxn42/badges/large?theme=light) no-repeat;
   filter: grayscale(100%);
 }
 
 @media (max-width: 720px) {
   a.codewars  {
+    display: inline-block;
     width: 120px;
     height: 24px;
     margin: 18px 20px;
-    display: inline-block;
     background: url(https://www.codewars.com/users/mxn42/badges/micro?theme=light) no-repeat;
     filter: grayscale(100%) invert(1);
   }
 }
 
 .column.left {
-  border-right: solid 6px #c6dae0;
   flex: 40%;
+  border-right: solid 6px #c6dae0;
   margin-right: 40px;
 }
 
@@ -163,25 +163,25 @@ a.codewars  {
 }
 
 .item > ul {
-  list-style-type: disc;
   margin-left: 3em;
+  list-style-type: disc;
 }
 
 .item h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  background-color: #c6dae0;
   width: 60%;
-  text-transform: uppercase;
   padding: 10px 20px 6px 20px;
   margin: 50px 0 30px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #c6dae0;
 }
 
 .item h3 {
+  margin: 30px 0 10px 0;
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
-  margin: 30px 0 10px 0;
 }
 
 .item pre {
