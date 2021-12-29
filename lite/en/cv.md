@@ -1,4 +1,4 @@
-# Maxim Zorin — **JavaScripter**
+# Maxim Zorin — **EcmaScripter**
 
 ![Maxim Zorin](photo.png "Maxim Zorin")
 
