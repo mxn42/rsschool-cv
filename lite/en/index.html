@@ -15,7 +15,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="body-header"><nav></nav></header>
   <main class="body-main">
+    <a data-toc-label="up" data-toc-icon="bx bx-up-arrow-alt"></a>
     <header class="hat">
       <img class="visual" src="assets/images/back.png" alt="">
       <img class="photo" src="mxn42-photo.jpg" alt="Maxim Zorin">
@@ -35,10 +37,12 @@
     </header>
     <div class="column left">
       <section class="item">
-        <h2>Profile</h2>
+        <a data-toc-label="about" data-toc-icon="bx bx-message-square-detail"></a>
+        <h2>About</h2>
         <p>I have a programming background, but in the web development we have to keep up with new technologies. I wish to use the course to close the weaknesses in my knowledge.</p>
       </section>
       <section class="item">
+        <a data-toc-label="education" data-toc-icon="bxs-graduation"></a>
         <h2>Education</h2>
         <ul>
           <li>Specialist <a href="assets/specialist-internet-user.jpg">Internet User</a></li>
@@ -61,11 +65,19 @@
         </ul>
       </section>
       <section class="item">
-        <h2>Skills</h2>
+        <a data-toc-label="skills" data-toc-icon="bx bx-cog"></a>
+        <h2>Hard Skills</h2>
         <ul>
           <li>JavaScript, Python</li>
           <li>Vanilla, RUP, Subversion, Notepad++</li>
           <li>HTML, CSS, Markdown</li>
+        </ul>
+      </section>
+      <section class="item">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Subtle irony</li>
+          <li>Unobtrusive and meticulous training</li>
         </ul>
       </section>
     </div>
@@ -86,6 +98,7 @@
     }
   return data;
 };</code></pre>
+      <a data-toc-label="experience" data-toc-icon="bx bx-history"></a>
       </section>
       <section class="item">
         <h2>Work Experience</h2>
@@ -99,6 +112,7 @@
         <p>Web dev the 1st version <a href="goodwin-gmc.com">goodwin-gmc.com</a>.</p>
       </section>
       <section class="item">
+        <a data-toc-label="projects" data-toc-icon="bx bx-code-alt"></a>
         <h2>Projects</h2>
         <ul>
           <li><a href="//www.tatastudio.ru">tatastudio.ru</a> -- Tatasutdio film production company</li>
@@ -107,6 +121,7 @@
     </div>
   </main>
   <footer class="body-footer">
+    <a data-toc-label="down" data-toc-icon="bx bx-down-arrow-alt"></a>
     <ul style="display: flex; gap: 20px; font-size: 1.5rem;">
       <li>&copy; 2021</li>
       <li>
@@ -122,6 +137,7 @@
   <script>
     hljs.highlightAll()
   </script>
+  <script src="js/toc-menu.js"></script>
   <script src="js/rs-tests.js"></script>
 </body>
 </html>
