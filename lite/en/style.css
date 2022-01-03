@@ -221,8 +221,8 @@ a.codewars  {
 }
 
 .item pre {
-  font-size: 1.1rem;
-  line-height: 1.8em;
+  font-size: 1rem;
+  line-height: 1.7rem;
   white-space: pre;
   font-family: Consolas, Courier, monospace;
 }
