@@ -3,7 +3,7 @@ a {
   cursor: pointer;
 }
 
-ins {
+time {
   font-style: italic;
 }
 
@@ -26,6 +26,9 @@ body {
 i.bx {
   position: relative;
   top: 5px;
+}
+i.bx.bxl-linkedin {
+  top: 2px;
 }
 
 .body-main {
@@ -62,12 +65,15 @@ i.bx {
 .body-footer {
   min-width: 720px;
   max-width: 1440px;
-  margin: 6rem auto;
+  margin: 4rem auto;
 }
 
 .body-footer ul {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .body-footer a {
@@ -107,9 +113,9 @@ i.bx {
 
 .hat .contacts {
   position: absolute;
-  bottom: 0;
+  bottom: 3rem;
   z-index: 1;
-  width: 50%;
+  width: 45%;
 }
 
 .hat .name-job {
@@ -142,10 +148,15 @@ i.bx {
 .hat .nav li {
   margin-left: 10px;
   padding: 10px 0;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   white-space: nowrap;
   font-weight: 300;
   overflow: hidden;
+}
+
+.hat .nav li a {
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 1120px) {
@@ -199,7 +210,6 @@ a.codewars  {
 }
 
 .item > ul {
-  margin-left: 3em;
   list-style-type: disc;
 }
 
@@ -219,7 +229,7 @@ a.codewars  {
   font-weight: 300;
 }
 
-.item pre {
+.item code {
   font-size: 1rem;
   line-height: 1.7rem;
   white-space: pre;
@@ -258,6 +268,7 @@ pre code {
   border-bottom-right-radius: 5px;
   width: fit-content;
   box-shadow: 0 0 7px #999;
+  list-style-type: none;
 }
 
 .body-header nav a {
