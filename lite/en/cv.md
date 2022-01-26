@@ -1,4 +1,4 @@
-# Maxim Zorin — **EcmaScripter**
+# Maxim Zorin — **JavaScripter**
 
 ![Maxim Zorin](photo.png "Maxim Zorin")
 
@@ -67,4 +67,4 @@ _**Master of Science**_, Mathematics and Computer Science
 
 \
 \
-Last CV update: _15th December 2021_
+Last CV update: _26th January 2022_
