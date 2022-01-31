@@ -69,6 +69,7 @@ I love spending time with my family, also I enjoy traveling, hiking, canoeing, a
 
 - 1992-1997 **Moscow Pedagogical State University** \
 _**Master of Science**_, Mathematics and Computer Science
+- Artifacts: Specialist [Internet User](../assets/specialist-internet-user.jpg), Brainbench [HTML Programmer](../assets/brainbench-html-programmer.jpg)
 
 <a data-toc-label="Skills" data-toc-icon="bx-cog"></a>
 
