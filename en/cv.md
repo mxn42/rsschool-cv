@@ -1,4 +1,4 @@
-# Maxim Zorin — **Lead JavaScript Developer**
+# Maxim Zorin — **JavaScript Developer**
 
 <figure class="photo"><img src="mxn42-photo.jpg" alt="Maxim Zorin in winter" width="30%" align="right"></figure>
 
@@ -12,7 +12,9 @@
 
 <a data-toc-label="About" data-toc-icon="bx-message-square-detail"></a>
 \
-My overall experience of more than 20 years, I have worked at Zodiac Systems, Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and CS from Moscow Pedagogical State University.
+My overall experience of more than 20 years, I have worked at Zodiac Systems (now part of Orion Innovation), Quest Software (Dell), and JetBrains. My current expertise is in the JavaScript stack. I hold a master’s degree in Math and CS from Moscow Pedagogical State University.
+
+I'm deeply into JavaScript, and more I'm a JS fun. I have experience with other languages, including Python, and I'm sure JavaScript is the best.  
 
 I love spending time with my family, also I enjoy traveling, hiking, canoeing, and playing board games.
 
@@ -47,7 +49,7 @@ I love spending time with my family, also I enjoy traveling, hiking, canoeing, a
 - Custom dev [Active Roles](https://www.oneidentity.com/products/active-roles/), JavaScripting ActiveDirectory and Windows.
 - ASP<span>.</span>NET web dev (developer, QA head) user provisioning, [self-service management and security](https://www.oneidentity.com/products/password-manager/), [management ActiveDirectory](https://www.quest.com/products/recovery-manager-for-active-directory/), [recovery Exchange](https://www.quest.com/products/recovery-manager-for-exchange/), customize SharePoint.
 - Web dev [tatastudio.ru](//www.tatastudio.ru/) _Tatasutdio film production company_
-- <abbr title="Quality Assurance">QA</abbr> the 1st version of [beeline.ru](//beeline.ru), one of the first interactive websites on the Internet.
+- <abbr title="Quality Assurance">QA</abbr> the 2nd version of [beeline.ru](//beeline.ru), one of the first interactive websites on the Internet.
 
 #### Past millennium
 
@@ -74,27 +76,30 @@ _**Master of Science**_, Mathematics and Computer Science
 
 ### IT
 
-- JS full stack: **FE, BE, Embedded**
-- OS: **Windows, Ubuntu**
+- JavaScript full stack: **FE, BE, Embedded, Testing, Automation**, Vanilla dialect
+- In active: Python, HTML, CSS, SQL, UML, and Markdown
+- In background: Pascal, Delphi, C#, Perl, SSI, PHP, ASP<span>.</span>NET, VBScript, and PowerShell
+- Draw and read: UML, SADT, and other diagrams
+- OS: **Windows (from 3.1), Linux (Ubuntu, Mint)**
 - Management: **up to 20 people team**
-- Teach CS levels: **Upper primary schools, College, University**
+- Teach CS expirience: **Upper primary schools, College, University**
+
+### Soft
+
+- Problem solving, open mind, most of 4K
 
 ### Languages
 
-- JavaScript **proficiency**, Vanilla dialect
-- Python, HTML, CSS, SQL, UML, Markdown **are used in work**
-- Pascal, Delphi, C#, Perl, SSI, PHP, ASP<span>.</span>NET, VBScript, PowerShell, and SADT **are in the background**
+- English **B1**
 - Russian **fluent**
-- English **B2**
 
 ### Interests
 
 - Mainly: Fatherhood
 - Outdoors: Hiking, Canoeing, Active games
-- Indoors: Reading, Board games (especially tafl, chess, go), Сard games (primarily poker)
+- Indoors: Board games (especially tafl, chess, go), Сard games (primarily poker), Watching movies, Reading books
 
-\
 
 <aside class="last-update">
-  Last CV update: <time datetime="2021-09-24">6th October 2021</time>
+  Last CV update: <time datetime="2022-01-31">31st January 2022</time>
 </aside>
